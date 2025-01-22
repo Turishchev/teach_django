@@ -1,5 +1,6 @@
 .venv/
 .vscode/
+db.sqllite3
 
 __pycache__/
 *.pyc

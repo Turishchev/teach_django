@@ -5,3 +5,6 @@ db.sqllite3
 __pycache__/
 *.pyc
 *.pyo
+
+
+passwords

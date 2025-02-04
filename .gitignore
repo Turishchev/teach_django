@@ -7,4 +7,6 @@ __pycache__/
 *.pyo
 
 
-passwords
+passwords.txt
+mysite_data.json
+test.txt

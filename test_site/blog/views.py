@@ -66,6 +66,7 @@ def post_detail(request, year, month, day, post):
                    'similar_posts': similar_posts})
 
 def post_list(request, tag_slug=None):
+    
     post_list = Post.published.all()
 
     tag = None

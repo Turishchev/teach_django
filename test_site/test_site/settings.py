@@ -85,7 +85,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'blog',
         'USER': 'blog',
-        'PASSWORD': 'n9i8ki3t0a2020',
+        'PASSWORD': '',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
@@ -153,8 +153,12 @@ SERVER_EMAIL = EMAIL_HOST_USER
 
 EMAIL_ADMIN = EMAIL_HOST_USER
 
-
+LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = "/"
 
 SESSION_COOKIE_AGE = 60 * 60 * 24 * 30
+
+
+MEDIA_ROOT = BASE_DIR/'media'
+MEDIA_URL = '/media/'
